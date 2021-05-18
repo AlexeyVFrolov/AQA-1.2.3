@@ -15,7 +15,7 @@ public class APITest1 {
                 .post("/post")
                 .then()
                 .statusCode(200)
-        .body("data", equalTo("some data"))
+        .body("data", equalTo("something else"))
         ;
     }
 }
